@@ -1,0 +1,119 @@
+# ---------------- #
+#   Main Configs   #
+# ---------------- #
+baseurl:
+date_format: "ordinal"
+title: 滴滴滴
+subtitle: ""
+description: "为天地立心,为生民立命,为往圣继绝学,为万世开太平"
+timezone: Asia/Shanghai
+encoding: "utf-8"
+side_bar_repo_limit: 5
+
+# ---------------- #
+#      Author      #
+# ---------------- #
+author: kingszhe
+organization: 
+organization_url: 
+github_username: kingszhe9664
+location: Chengdu, China
+email: kingszhe9664@gmail.com
+
+# ---------------- #
+#    Navigation    #
+# ---------------- #
+navs:
+  -
+    href: /
+    label: 首页
+
+  -
+    href: /categories/
+    label: 分类
+
+  -
+    href: /wiki/
+    label: 维基
+
+  -
+    href: /links/
+    label: 链接
+
+  -
+    href: /about/
+    label: 关于
+
+# ---------------- #
+#       RSS        #
+# ---------------- #
+subscribe_rss: /feed.xml
+
+# ---------------- #
+#      Jekyll      #
+# ---------------- #
+markdown: kramdown
+kramdown:
+    input: GFM
+highlighter: rouge
+paginate: 10
+lsi: false
+quiet: false
+excerpt_separator: "\n\n"
+permalink: /:year/:month/:day/:title/
+gems:
+    - jekyll-github-metadata
+    - rouge
+#     - jekyll-html-pipeline
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
+    - jemoji
+#     - jekyll-mentions
+collections:
+    wiki:
+        output: true
+        permalink: /wiki/:path/
+
+repository: kingszhe9664/kingszhe9664.github.io
+
+# ---------------- #
+#      Comments    #
+# ---------------- #
+# support provider: disqus, gitment, gitalk
+comments_provider: gitalk
+# !!!重要!!! 请修改下面这些信息为你自己申请的
+# !!!Important!!! Please modify infos below to yours
+# https://disqus.com
+disqus:
+    username: kingszhe9664
+# https://imsun.net/posts/gitment-introduction/
+gitment:
+    owner: kingszhe9664
+    repo: blog-comments
+    oauth:
+        client_id: a8d2c8c5b1665f7a7bf7
+        client_secret: 7ac662490f20a315297f0f4fe99ab85f60f1847d
+# https://github.com/gitalk/gitalk#install
+gitalk:
+    owner: kingszhe9664
+    repo: blog-comments
+    clientID: a8d2c8c5b1665f7a7bf7
+    clientSecret: 7ac662490f20a315297f0f4fe99ab85f60f1847d
+# 在使用其它评论组件时可点击显示 Disqus
+lazy_load_disqus : false
+
+# ---------------- #
+#      Search      #
+# ---------------- #
+simple_jekyll_search:
+    # 是否支持全文搜索
+    fulltext: false
+    # 最多显示多少条搜索结果
+    limit: 10
+
+# ---------------- #
+#    Analytics     #
+# ---------------- #
+google:
+    analytics_id: UA-80669434-1
