@@ -5,7 +5,7 @@ categories: Java, Distributed
 description: 倒排索引详解
 keywords: Java, Distributed
 ---
-
+---
 > ELK的核心就是ES，而ES是在Lucene的基础上做了一层REST的封装 ，来作为WEB服务供方便外部，
 
 Lucene其实就是一个支持全文索引的工具包，其特殊就是由于内部使用的倒叙索引。__倒排索引由在文档中出现的唯一的单词列表，以及对于每个单词在文档中的位置组成。__ 不同于以往的各种索引结构（由对应的记录获取他的属性。而是通过记录的属性获取到他的记录位置。）
