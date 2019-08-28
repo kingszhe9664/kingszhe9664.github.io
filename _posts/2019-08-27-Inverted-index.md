@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ES--浅谈倒排索引
-categories: [Java, Distributed]
+categories: Java, Distributed
 description: 倒排索引详解
 keywords: Java, Distributed
 ---
